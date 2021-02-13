@@ -1,0 +1,11 @@
+/* CSS Document */
+cialo  { /*width:800px;*/ }
+naglowek {   text-align:center; margin-left: auto; margin-right: auto;display:block; margin-top:15px; width:798px; height: 45px;   }
+naglowek_i {  /*text-align:center;*/ border-radius: 4px; font-family: Arial, Helvetica, sans-serif; background-color: lightblue; color:darkblue; font-weight: bold; font-size:25px; }
+stopka { display:block; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color:darkblue; text-align: center; margin-top:10px;}
+
+/*Elementy tabeli*/
+th {display:table-row; color:darkblue; font-weight: bold; font-size:21px; border: 2px lightblue solid; padding: 5px 0px; text-align: center;}
+komorka {display:table-cell; border: 2px lightblue solid; padding: 10px 0px; text-align: center;}
+wiersz { display:table-row; border: 2px lightblue solid; padding: 5px 0px; text-align: center;}
+pseudo_tabela { display:table; border: 2px lightblue solid; margin-left: auto; margin-right: auto; width:798px;}

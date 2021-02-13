@@ -1,0 +1,14 @@
+/* CSS Document */
+#body  { width:800px; }
+#header { width:798px; height: 45px; text-align:center;  }
+#header i { border-radius: 4px; font-family: Arial, Helvetica, sans-serif; background-color: lightblue; color:darkblue; font-weight: bold; font-size:25px; }
+h3{font-family: Arial, Helvetica, sans-serif; font-weight: bold; color:darkblue; text-align: left; margin-left:10px;}
+
+/*Elementy tabeli*/
+thead {margin-top: 10px;}
+th {color:darkblue; border: 2px lightblue solid; font-weight: bold; font-size: 18px;}
+#th1 {width: 20%;}
+#th2 {width: 60%;}
+#th3 {width: 20%;}
+td {border: 2px lightblue solid; padding: 10px 0px; text-align: center;}
+table { margin-left: auto; margin-right: auto; border: 2px lightblue solid; border-collapse: collapse; border-spacing: 50px 0; width:798px;}

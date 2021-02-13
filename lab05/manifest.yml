@@ -1,0 +1,6 @@
+applications:
+- buildpack: python_buildpack
+  name: TI-lab05-2k20
+  memory: 64MB
+  disk_quota: 256M  
+  command: python server.py

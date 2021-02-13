@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>Zadanie 6 - Lab 6</title>
+<meta charset="UTF-8" />
+<link rel = "stylesheet" type="text/css" href="lab6.css" />
+<script src="functions.js" ></script>
+</head>
+<body>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Formularz')">Formularz danych</button>
+    </div>
+
+    <div id="Formularz" class="tabcontent">
+        <form action="../cgi-bin/write.py" method="GET" name="form1" onsubmit="return validate()">
+            <p>Imię: (*pole wymagane) <span style="color: red; font-weight: bold" id="empty_name"></span></p>
+            <input type="text" size="20" name="pole1" /><br/>
+
+            <p>Nazwisko: (*pole wymagane) <span style="color: red; font-weight: bold" id="empty_surname"></span></p>
+            <input type="text" size="20" name="pole2" /><br/>
+
+            <p>Adres e-mail: (*pole wymagane) <span style="color: red; font-weight: bold" id="empty_mail"></span></p>
+            <input type="text" size="35" name="pole3" /><br/>
+                
+            <p>Rok studiów: (*pole wymagane) <span style="color: red; font-weight: bold" id="empty_year"></span></p>
+            <select id="lista" name="lista" size="1">
+            <option value="none" selected disabled hidden> 
+                Wybierz rok
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="4">5</option>
+            </select>
+            </p>	
+                
+            <input type="submit" name="Zaakceptuj" onlick="redirect()" value="Submit" />
+        </form>
+    </div>
+
+</body>
+</html>

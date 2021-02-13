@@ -1,0 +1,5 @@
+IBMCLOUD: 
+http://ti-lab10-2k20.eu-gb.mybluemix.net/index.php
+
+PASCAL:
+http://pascal.fis.agh.edu.pl/~8strugala/php/lab10_mvc/lab10/index.php

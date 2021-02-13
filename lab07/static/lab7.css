@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+/* Blok z wynikami */
+  #chart {
+    float: left;
+    display: block;
+    border: 1px #cccccc solid;
+    height: 200px;
+    width:  350px;
+    padding: 4px;
+    
+  }
+
+  figcaption {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  rect {
+    font-family: Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+  }
+
+
+  /* Blok z formularzem */
+#Formularz {
+    float: left;
+    height: 200px;
+    width:  250px;
+    border: 1px #cccccc solid;
+    padding: 4px;
+}
+
+#buttons {
+    margin-left: 80px;
+}
+
+#sub {
+    text-align: center;
+}
+
+#tytul{
+    margin-bottom: 20px;
+}

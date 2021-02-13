@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<title>Zadanie 7 - Lab 7</title>
+<meta charset="UTF-8" />
+<link rel = "stylesheet" type="text/css" href="lab7.css" />
+<script type="text/javascript">
+
+function sendRequest() {
+     const xhr = new XMLHttpRequest();
+     xhr.open("GET", "../../cgi-bin/lab7/lab7_read.py", false);
+     xhr.send();
+ 
+       if ( xhr.status == 200 )  {
+            var data = JSON.parse(xhr.responseText).seasons;
+            var html = "" ;
+            var suma = data[0].wiosna + data[1].lato + data[2].jesien + data[3].zima;
+            if (suma == 0){
+                suma = 1;
+            }
+            var width = 210;
+
+            //ustawienie wysokosci slupkow na podstawie danych z pliku
+            document.getElementById('wiosna_rect').setAttribute("width", data[0].wiosna /suma*width);
+            document.getElementById('lato_rect').setAttribute("width", data[1].lato/suma*width);
+            document.getElementById('jesien_rect').setAttribute("width", data[2].jesien/suma*width);
+            document.getElementById('zima_rect').setAttribute("width", data[3].zima /suma*width);
+
+       }
+ }
+
+</script>
+</head>
+<body onload="sendRequest()">
+    
+
+    <div id="Formularz">
+        <form action="../../cgi-bin/lab7/lab7_write.py" method="GET" name="form1" >
+            <p id="tytul" style="text-align: center; font-weight: bold;">Quiz: Którą porę roku lubisz?</p>
+            <div id="buttons">
+                <input type="radio" id="wiosna" name="options" value="wiosna">
+                <label for="wiosna">Wiosna</label><br>
+
+                <input type="radio" id="lato" name="options" value="lato">
+                <label for="lato">Lato</label><br>
+
+                <input type="radio" id="jesien" name="options" value="jesien">
+                <label for="jesien">Jesień</label><br>
+
+                <input type="radio" id="zima" name="options" value="zima">
+                <label for="zima">Zima</label><br><br>
+
+                
+            </div>
+        <div id="sub">
+            <input type="submit" name="Submit" value="Wyslij"/>
+        </div>
+            
+        </form>
+    </div>
+
+    
+
+    <div id="chart">
+        <figure>
+            <figcaption>Wyniki quizu</figcaption>
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <g class="bar">
+                    <rect id="wiosna_rect" fill="red"  x="60" height="19" y="2"></rect>
+                    <text fill="red" x="0" y="9.5" dy=".35em">Wiosna</text>
+                </g>
+
+                <g class="bar">
+                    <rect id="lato_rect" fill="blue"  x="60" height="19" y="25"></rect>
+                    <text fill="blue" x="0" y="33" dy=".35em">Lato</text>
+                </g>
+
+                <g class="bar">
+                    <rect id="jesien_rect" fill="yellow" x="60" height="19" y="48"></rect>
+                    <text fill="yellow" x="0" y="56.5" dy=".35em">Jesień</text>
+                </g>
+
+                <g class="bar">
+                    <rect id="zima_rect" fill="green" x="60" height="19" y="71"></rect>
+                    <text fill="green" x="0" y="80" dy=".35em">Zima</text>
+                </g>
+                
+
+            </svg>
+        </figure>
+        
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="index.css" ?>
+<!DOCTYPE dane [
+<!ELEMENT dane ( cialo* )  >
+<!ELEMENT cialo ( naglowek*, pseudo_tabela*, stopka )  >
+<!ELEMENT naglowek (naglowek_i)  >
+<!ELEMENT naglowek_i (#PCDATA) >
+<!ELEMENT pseudo_tabela (th*, wiersz*)>
+<!ELEMENT wiersz (komorka*) >
+<!ELEMENT  th (komorka*) >
+<!ELEMENT  komorka (#PCDATA) >
+<!ELEMENT stopka (#PCDATA) >
+] >
+<dane>  
+  <cialo> 
+		<naglowek>
+			<naglowek_i>
+			Techniki Internetowe - 2020/2021
+			</naglowek_i>
+		</naglowek>
+		
+		<pseudo_tabela>
+					<th> 
+						<komorka>Nr laboratorium</komorka>
+						<komorka>Temat</komorka>
+						<komorka>Link</komorka>	
+					</th>
+			  <wiersz><komorka>Lab 01</komorka> 			<komorka>Język HTML5 i arkusze styli CSS						</komorka> 		<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 01" alt="Icon">--><komorka>Lab 01	</komorka> </wiersz>
+			  <wiersz><komorka>Lab 02</komorka>				<komorka>Język XML												</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 02" alt="Icon">-->	<komorka>Lab 02		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 03</komorka>				<komorka>PaaS - technologia IBM Cloud							</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 03" alt="Icon">-->	<komorka>Lab 03		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 04</komorka>				<komorka>Transformacja XSLT										</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 04" alt="Icon">-->	<komorka>Lab 04		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 05</komorka>				<komorka>Technologia CGI										</komorka> 		<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 05" alt="Icon">--><komorka>Lab 05	</komorka> </wiersz>
+			  <wiersz><komorka>Lab 06</komorka>				<komorka>Język JavaScript (ECMAScript) - klient					</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 06" alt="Icon">-->	<komorka>Lab 06		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 07</komorka>				<komorka>AJAX													</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 07" alt="Icon">-->	<komorka>Lab 07		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 08</komorka>				<komorka>AJAX - realizacja projektu								</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 08" alt="Icon">-->	<komorka>Lab 08		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 09</komorka>				<komorka>Język PHP, wprowadzenie								</komorka> 		<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 09" alt="Icon">--><komorka>Lab 09	</komorka> </wiersz>
+			  <wiersz><komorka>Lab 10</komorka>				<komorka>Wzorzec MVC - relacyjna baza danych					</komorka> 		<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 10" alt="Icon">--><komorka>Lab 10	</komorka> </wiersz>
+			  <wiersz><komorka>Lab 11</komorka>				<komorka>WebService i baza MongoDB								</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 11" alt="Icon">-->	<komorka>Lab 11		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 12</komorka>				<komorka>Styl RESTful											</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 12" alt="Icon">-->	<komorka>Lab 12		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 13</komorka>				<komorka>Język JavaScript - serwer node.js lub aplikacja SPA 	</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 13" alt="Icon">-->	<komorka>Lab 13		</komorka> </wiersz>
+			  <wiersz><komorka>Lab 14</komorka>				<komorka>RESTful - realizacja projektu							</komorka> 	<!--<img src="hyperlink_icon.png" style="vertical-align:middle" width="14" height="14" title="Lab 14" alt="Icon">-->	<komorka>Lab 14		</komorka> </wiersz>
+		
+		</pseudo_tabela>
+		<stopka> Jakub Strugała, nr indeksu: 303800 </stopka>
+  
+  </cialo>
+</dane>

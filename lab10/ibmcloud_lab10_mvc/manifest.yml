@@ -1,0 +1,7 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  name: ti-lab10-2k20
+  disk_quota: 512M
+  buildpack: php_buildpack

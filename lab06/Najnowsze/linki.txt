@@ -1,0 +1,10 @@
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs
+
+dodawanie wierszy do tabeli
+http://jsfiddle.net/QmHdL/
+
+dodawanie wierszy do tabeli v2
+http://jsfiddle.net/9h6b3420/13/
+
+tabele w pythonie:
+https://stackoverflow.com/questions/1475123/easiest-way-to-turn-a-list-into-an-html-table-in-python

@@ -1,0 +1,11 @@
+/* CSS Document */
+labs{position: absolute;}
+h1 {color: darkblue; margin-left: 210px; }
+b {font-weight: bold; color:red;}
+m {font-weight:underline;}
+lab {margin-left: 20px; width: 800px; margin-top: 20px; color:darkblue; display: block;}
+tytul {font-size:21px; color:darkblue; font-weight: bold; }
+p {font-size:15px; color:black; font-weight: italic; }
+li {margin-left: 40px; font-size:15px; color:#034f84}
+description {font-style:italic; margin-top: 10px; display: block; font-family: Arial, Helvetica, sans-serif; color:darkblue;}
+code {margin-top:10px; display: block; border: 2px lightblue solid;}

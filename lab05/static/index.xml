@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="index.xsl" ?>
+<cialo> 
+			<!-- Naglowek -->
+			<naglowek>
+				<naglowek_i>
+					Lista produktów w magazynie
+				</naglowek_i>
+			</naglowek>
+			
+			<!-- Tabela -->
+			<!-- 1. grupa -->
+			<grupa>
+				<nazwa>RTV/AGD</nazwa>
+				<wiersz>
+					<lp>1.</lp>
+					<produkt>Telewizor Full HD 4K</produkt>
+					<ilosc>50</ilosc>
+					<cena>2200</cena>
+				</wiersz>
+				<wiersz>
+					<lp>2.</lp>
+					<produkt>Pralka Bosch 2k20</produkt>
+					<ilosc>15</ilosc>
+					<cena>1200</cena>
+				</wiersz>
+				<wiersz>
+					<lp>3.</lp>
+					<produkt>Lodówka Samsung czarne szkło</produkt>
+					<ilosc>6</ilosc>
+					<cena>2300</cena>
+				</wiersz>
+				<wiersz>
+					<lp>4.</lp>
+					<produkt>Laptop Asus, III generacja</produkt>
+					<ilosc>12</ilosc>
+					<cena>2500</cena>
+				</wiersz>
+				<wiersz>
+					<lp>5.</lp>
+					<produkt>Żelazko Philips</produkt>
+					<ilosc>25</ilosc>
+					<cena>350</cena>
+				</wiersz>
+			</grupa>
+			<!-- 2. grupa -->
+			<grupa>
+				<nazwa>Materiały budowlane</nazwa>
+				<wiersz>
+					<lp>1.</lp>
+					<produkt>Taśma montażowa</produkt>
+					<ilosc>300</ilosc>
+					<cena>25</cena>
+				</wiersz>
+				<wiersz>
+					<lp>2.</lp>
+					<produkt>Pustaki szlifowane</produkt>
+					<ilosc>500</ilosc>
+					<cena>28</cena>
+				</wiersz>
+				<wiersz>
+					<lp>3.</lp>
+					<produkt>Kabel grzewczy 12m</produkt>
+					<ilosc>40</ilosc>
+					<cena>200</cena>
+				</wiersz>
+				<wiersz>
+					<lp>4.</lp>
+					<produkt>Płytki podłogowe</produkt>
+					<ilosc>1000</ilosc>
+					<cena>160</cena>
+				</wiersz>
+				<wiersz>
+					<lp>5.</lp>
+					<produkt>Kostka granitowa</produkt>
+					<ilosc>2000</ilosc>
+					<cena>360</cena>
+				</wiersz>
+			</grupa>
+			<!-- 3. grupa -->
+			<grupa>
+				<nazwa>Przybory szkolne</nazwa>
+				<wiersz>
+					<lp>1.</lp>
+					<produkt>Pióro Parker</produkt>
+					<ilosc>100</ilosc>
+					<cena>450</cena>
+				</wiersz>
+				<wiersz>
+					<lp>2.</lp>
+					<produkt>Długopis Bic czarny</produkt>
+					<ilosc>300</ilosc>
+					<cena>2</cena>
+				</wiersz>
+				<wiersz>
+					<lp>3.</lp>
+					<produkt>Ryza papieru A4</produkt>
+					<ilosc>500</ilosc>
+					<cena>50</cena>
+				</wiersz>
+				<wiersz>
+					<lp>4.</lp>
+					<produkt>Zeszyt B5 kratka 2000</produkt>
+					<ilosc>350</ilosc>
+					<cena>8</cena>
+				</wiersz>
+				<wiersz>
+					<lp>5.</lp>
+					<produkt>Klej Wikol</produkt>
+					<ilosc>200</ilosc>
+					<cena>10</cena>
+				</wiersz>
+			</grupa>  			 
+			<!-- 4. grupa -->
+			<grupa>
+				<nazwa>Chemia</nazwa>
+				<wiersz>
+					<lp>1.</lp>
+					<produkt>Płyn do naczyń Ludwik</produkt>
+					<ilosc>100</ilosc>
+					<cena>15</cena>
+				</wiersz>
+				<wiersz>
+					<lp>2.</lp>
+					<produkt>Papier toaletowy Fox</produkt>
+					<ilosc>75</ilosc>
+					<cena>9</cena>
+				</wiersz>
+				<wiersz>
+					<lp>3.</lp>
+					<produkt>Mydło w płynie</produkt>
+					<ilosc>200</ilosc>
+					<cena>13</cena>
+				</wiersz>
+				<wiersz>
+					<lp>4.</lp>
+					<produkt>Gąbka do naczyń</produkt>
+					<ilosc>300</ilosc>
+					<cena>3</cena>
+				</wiersz>
+				<wiersz>
+					<lp>5.</lp>
+					<produkt>Nabłyszczacz do zmywarki</produkt>
+					<ilosc>25</ilosc>
+					<cena>21</cena>
+				</wiersz>
+			</grupa>  
+			<!-- 5. grupa -->
+			<grupa>
+				<nazwa>Muzyka</nazwa>
+				<wiersz>
+					<lp>1.</lp>
+					<produkt>Gitara akustyczna Yamaha</produkt>
+					<ilosc>20</ilosc>
+					<cena>400</cena>
+				</wiersz>
+				<wiersz>
+					<lp>2.</lp>
+					<produkt>Płyty winylowe</produkt>
+					<ilosc>300</ilosc>
+					<cena>120</cena>
+				</wiersz>
+				<wiersz>
+					<lp>3.</lp>
+					<produkt>Płyty CD</produkt>
+					<ilosc>1500</ilosc>
+					<cena>50</cena>
+				</wiersz>
+				<wiersz>
+					<lp>4.</lp>
+					<produkt>Gramofon</produkt>
+					<ilosc>15</ilosc>
+					<cena>1000</cena>
+				</wiersz>
+				<wiersz>
+					<lp>5.</lp>
+					<produkt>Wieża stereo</produkt>
+					<ilosc>20</ilosc>
+					<cena>700</cena>
+				</wiersz>
+			</grupa> 
+</cialo>

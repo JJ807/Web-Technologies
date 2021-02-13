@@ -1,0 +1,9 @@
+#header p{ font-size: 25px;  width:650px; border:solid 1px #A52A2A; text-align:center;  }
+table {float:left; margin-left: 20px; border: 1px black solid; border-collapse: collapse;}
+th {padding: 5px;}
+td {text-align: center;}
+thead {background-color:lightblue;}
+tfoot {background-color:yellow;}
+#right_side { float:left;  width:335px;}
+#right_side img {border: 1px black solid; float:right; width:275px; height:243px; }
+        
